@@ -1,0 +1,9 @@
+server:
+  port: 8096
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/demodb
+    username: admin
+    password: root
+    pool-size: 30
